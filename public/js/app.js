@@ -2754,7 +2754,7 @@ var Navbar = function Navbar(_ref) {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "w-10 rounded-full",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-                src: "https://source.unsplash.com/40x40?girl"
+                src: "https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/profile.png"
               })
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {

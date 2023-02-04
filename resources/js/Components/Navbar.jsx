@@ -25,7 +25,7 @@ const Navbar = ({ user }) => {
                             className="btn btn-ghost btn-circle avatar"
                         >
                             <div className="w-10 rounded-full">
-                                <img src="https://source.unsplash.com/40x40?girl" />
+                                <img src="https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/profile.png" />
                             </div>
                         </label>
                         <ul
