@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="flex mx-auto max-w-6xl  justify-between py-24">
                 <div>
                     <a href="">
-                        <p className="text-3xl font-bold font-playfair text-yellow-400 hover:text-yellow-500">
+                        <p className="text-3xl font-extrabold font-playfair text-yellow-400 hover:text-yellow-500">
                             NoTimeToNews
                         </p>
                     </a>

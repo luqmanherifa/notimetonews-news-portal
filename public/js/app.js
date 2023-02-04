@@ -2393,7 +2393,7 @@ var Footer = function Footer() {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
           href: "",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-3xl font-bold font-playfair text-yellow-400 hover:text-yellow-500",
+            className: "text-3xl font-extrabold font-playfair text-yellow-400 hover:text-yellow-500",
             children: "NoTimeToNews"
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
@@ -2475,7 +2475,7 @@ var NewsHighlights = function NewsHighlights() {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
         className: "mx-auto max-w-6xl",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-          src: "https://source.unsplash.com/1280x720?news"
+          src: "https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/news_highlight.png"
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
         className: "absolute inset-y-1/2 mobile:inset-0 mobile:static",
@@ -2733,7 +2733,7 @@ var Navbar = function Navbar(_ref) {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
           href: "",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-            className: "text-3xl font-bold font-playfair hover:text-yellow-600",
+            className: "text-3xl font-extrabold font-playfair hover:text-yellow-600",
             children: "NoTimeToNews"
           })
         })

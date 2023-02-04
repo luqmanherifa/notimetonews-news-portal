@@ -6,7 +6,7 @@ const Navbar = ({ user }) => {
             <div className="navbar max-w-6xl mx-auto h-24 p-0">
                 <div className="flex-1">
                     <a href="">
-                        <p className="text-3xl font-bold font-playfair hover:text-yellow-600">
+                        <p className="text-3xl font-extrabold font-playfair hover:text-yellow-600">
                             NoTimeToNews
                         </p>
                     </a>

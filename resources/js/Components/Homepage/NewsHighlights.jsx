@@ -3,7 +3,7 @@ const NewsHighlights = () => {
         <div>
             <div className="relative flex justify-center mb-20 mobile:block mobile:flex-none mobile:mb-0">
                 <div className="mx-auto max-w-6xl">
-                    <img src="https://source.unsplash.com/1280x720?news" />
+                    <img src="https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/news_highlight.png" />
                 </div>
                 <div className="absolute inset-y-1/2 mobile:inset-0 mobile:static">
                     <div className="max-w-3xl bg-floral p-14 mobile:p-0">
