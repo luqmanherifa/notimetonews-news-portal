@@ -12,7 +12,7 @@ const NewsHighlights = () => {
                         </p>
                         <p className="text-lg mt-7">
                             ChatGPT is smart enough to pass prestigious
-                            graduate-level exams – though not with particularly
+                            graduate-level exams though not with particularly
                             high marks. The powerful new AI chatbot tool
                             recently passed law exams in four courses at the
                             University of Minnesota and another exam at

@@ -2486,7 +2486,7 @@ var NewsHighlights = function NewsHighlights() {
             children: "ChatGPT passes exams from law and business schools"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
             className: "text-lg mt-7",
-            children: "ChatGPT is smart enough to pass prestigious graduate-level exams \u2013 though not with particularly high marks. The powerful new AI chatbot tool recently passed law exams in four courses at the University of Minnesota and another exam at University of Pennsylvania\u2019s Wharton School of Business, according to professors at the schools. Professors at the University of Minnesota Law School recently graded the tests blindly. After completing 95 multiple choice questions and 12 essay questions, the bot performed on average at the level of a C+ student, achieving a low but passing grade in all four courses."
+            children: "ChatGPT is smart enough to pass prestigious graduate-level exams though not with particularly high marks. The powerful new AI chatbot tool recently passed law exams in four courses at the University of Minnesota and another exam at University of Pennsylvania\u2019s Wharton School of Business, according to professors at the schools. Professors at the University of Minnesota Law School recently graded the tests blindly. After completing 95 multiple choice questions and 12 essay questions, the bot performed on average at the level of a C+ student, achieving a low but passing grade in all four courses."
           })]
         })
       })]
