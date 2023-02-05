@@ -2334,34 +2334,34 @@ __webpack_require__.r(__webpack_exports__);
 
 var Category = function Category() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-    className: "flex justify-center gap-x-16 max-w-6xl mx-auto border-b border-b-valhalla/30 py-5 mobile:overflow-x-scroll",
+    className: "flex justify-center gap-x-2 mx-auto border-b border-b-valhalla/30 py-2 mt-3 mb-8 overflow-x-scroll max-w-xs lg:max-w-6xl lg:overflow-hidden lg:py-5 lg:gap-x-16 lg:my-0",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "",
-      className: "text-lg hover:text-yellow-600 font-semibold category-b",
+      className: "text-xs lg:text-lg hover:text-yellow-600 font-semibold category-b",
       children: "News"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "",
-      className: "text-lg hover:text-yellow-600 font-semibold category-b",
+      className: "text-xs lg:text-lg hover:text-yellow-600 font-semibold category-b",
       children: "Life"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "",
-      className: "text-lg hover:text-yellow-600 font-semibold category-b",
+      className: "text-xs lg:text-lg hover:text-yellow-600 font-semibold category-b",
       children: "Tech"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "",
-      className: "text-lg hover:text-yellow-600 font-semibold category-b",
+      className: "text-xs lg:text-lg hover:text-yellow-600 font-semibold category-b",
       children: "Travel"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "",
-      className: "text-lg hover:text-yellow-600 font-semibold category-b",
+      className: "text-xs lg:text-lg hover:text-yellow-600 font-semibold category-b",
       children: "Money"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "",
-      className: "text-lg hover:text-yellow-600 font-semibold category-b",
+      className: "text-xs lg:text-lg hover:text-yellow-600 font-semibold category-b",
       children: "Sports"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
       href: "",
-      className: "text-lg hover:text-yellow-600 font-semibold category-b",
+      className: "text-xs lg:text-lg hover:text-yellow-600 font-semibold category-b",
       children: "Entertainment"
     })]
   });
@@ -2388,7 +2388,7 @@ var Footer = function Footer() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
     className: "bg-stone-900",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "flex mx-auto max-w-6xl  justify-between py-24",
+      className: "mx-auto py-10 lg:py-16 max-w-xs lg:max-w-6xl lg:flex lg:justify-between",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
           href: "",
@@ -2397,43 +2397,43 @@ var Footer = function Footer() {
             children: "NoTimeToNews"
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "mt-5 text-sm max-w-xs text-white font-light",
+          className: "my-5 text-sm max-w-xs text-white font-light lg:mb-0",
           children: "Best news portal for you, updated every day, can be read anywhere and anytime."
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "flex gap-10",
+        className: "lg:gap-10 lg:flex",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white mb-5 text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Jobs"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white mb-5 text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Sitemap"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-0 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Newsletters"
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
           className: "text-white",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white mb-5 text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer",
             children: "About Us"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white mb-5 text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Terms of Use"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-0 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Privacy Policy"
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white mb-5 text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Transcripts"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white mb-5 text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Newsource"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-white text-sm hover:text-yellow-400 cursor-pointer",
+            className: "text-white mb-0 lg:mb-0 text-sm hover:text-yellow-400 cursor-pointer",
             children: "Add Choices"
           })]
         })]
@@ -2443,7 +2443,7 @@ var Footer = function Footer() {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
         href: "https://github.com/luqmanherifa",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-          className: "text-white hover:text-yellow-400 text-xs",
+          className: "text-white hover:text-yellow-400 text-xs p-3",
           children: "\xA9 2023 \u2022 Built by Luqman Herifa"
         })
       })
@@ -2469,28 +2469,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var NewsHighlights = function NewsHighlights() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "relative flex justify-center mb-20 mobile:block mobile:flex-none mobile:mb-0",
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+      className: "flex justify-start mx-auto mb-5 max-w-xs lg:max-w-6xl lg:mb-12 lg:mt-10",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+        className: "font-playfair font-bold text-3xl text-highlight transition-all duration-1000 ease-out cursor-pointer lg:text-5xl",
+        children: "News Highlights"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+      className: "relative block flex-none mb-0 lg:mb-24 lg:flex lg:justify-center",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: "mx-auto max-w-6xl",
+        className: "mx-auto max-w-6xl mb-5 lg:mb-0",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
           src: "https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/news_highlight.png"
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: "absolute inset-y-1/2 mobile:inset-0 mobile:static",
+        className: "inset-0 static lg:absolute lg:inset-y-1/2",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "max-w-3xl bg-floral p-14 mobile:p-0",
+          className: "max-w-3xl bg-floral p-0 lg:p-14 lg:mx-auto",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "font-bold font-playfair text-5xl cursor-pointer hover:text-yellow-600 mobile:text-lg",
+            className: "font-bold font-playfair text-3xl cursor-pointer hover:text-yellow-600 lg:text-5xl",
             children: "ChatGPT passes exams from law and business schools"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-lg mt-7",
+            className: "text-lg mt-5 lg:mt-7 line-clamp-5 lg:line-clamp-none",
             children: "ChatGPT is smart enough to pass prestigious graduate-level exams though not with particularly high marks. The powerful new AI chatbot tool recently passed law exams in four courses at the University of Minnesota and another exam at University of Pennsylvania\u2019s Wharton School of Business, according to professors at the schools. Professors at the University of Minnesota Law School recently graded the tests blindly. After completing 95 multiple choice questions and 12 essay questions, the bot performed on average at the level of a C+ student, achieving a low but passing grade in all four courses."
           })]
         })
       })]
-    })
+    })]
   });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NewsHighlights);
@@ -2514,7 +2520,7 @@ __webpack_require__.r(__webpack_exports__);
 var isNews = function isNews(news) {
   return news.map(function (data, i) {
     return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "card w-[22rem] rounded-none group cursor-pointer",
+      className: "card w-[18rem] rounded-none group cursor-pointer lg:w-[22rem]",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("figure", {
         className: "max-w-md",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
@@ -2524,7 +2530,7 @@ var isNews = function isNews(news) {
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: "card-body p-0 mt-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "card-actions mt-2 flex justify-between",
+          className: "card-actions mt-0 lg:mt-2 flex justify-between",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "badge badge-outline p-2 rounded-none text-xs",
             children: data.author
@@ -2533,10 +2539,10 @@ var isNews = function isNews(news) {
             children: data.category
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", {
-          className: "card-title cursor-pointer group-hover:text-yellow-600 line-clamp-2 font-bold text-2xl mt-2",
+          className: "card-title cursor-pointer group-hover:text-yellow-600 line-clamp-2 font-bold text-2xl mt-0 lg:mt-2",
           children: data.title
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-          className: "line-clamp-3 mt-2",
+          className: "line-clamp-3 mt-0 lg:mt-2",
           children: data.description
         })]
       })]
@@ -2727,9 +2733,9 @@ var Navbar = function Navbar(_ref) {
   var user = _ref.user;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-      className: "navbar max-w-6xl mx-auto h-24 p-0",
+      className: "navbar mx-auto h-[124px] p-0 pt-3 max-w-xs lg:max-w-6xl block lg:flex lg:h-24",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "flex-1",
+        className: "flex-1 flex justify-center lg:block",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
           href: "",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
@@ -2738,7 +2744,7 @@ var Navbar = function Navbar(_ref) {
           })
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "flex-none gap-2",
+        className: "flex justify-between lg:flex-none mt-3 lg:gap-5 lg:mt-0",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "form-control",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
@@ -2752,7 +2758,7 @@ var Navbar = function Navbar(_ref) {
             tabIndex: 0,
             className: "btn btn-ghost btn-circle avatar",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              className: "w-10 rounded-full",
+              className: "rounded-full w-10",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
                 src: "https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/profile.png"
               })
@@ -4053,35 +4059,29 @@ function Homepage(props) {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
       user: props.auth.user
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Homepage_Category__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-      className: "flex justify-start max-w-6xl mx-auto mt-10 mb-12",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "font-playfair font-bold text-5xl text-highlight transition-all duration-1000 ease-out cursor-pointer",
-        children: "News Highlights"
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-      className: "flex justify-center max-w-7xl mx-auto",
+      className: "flex justify-center mx-auto max-w-xs lg:max-w-6xl",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Homepage_NewsHighlights__WEBPACK_IMPORTED_MODULE_4__["default"], {})
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {
-      className: "border-b border-b-valhalla/30 my-16 max-w-6xl mx-auto"
+      className: "border-b border-b-valhalla/30 my-8 mx-auto max-w-xs lg:max-w-6xl lg:my-12"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-      className: "flex justify-between mx-auto max-w-6xl mb-8",
+      className: " mx-auto mb-5 max-w-xs lg:max-w-6xl lg:flex lg:justify-between lg:mb-8 lg:items-center",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+        className: "max-w-[12rem] lg:max-w-none",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-          className: "font-playfair font-bold text-5xl text-highlight transition-all duration-1000 ease-out cursor-pointer",
+          className: "font-playfair font-bold text-3xl text-highlight transition-all duration-1000 ease-out cursor-pointer lg:text-5xl",
           children: "News Today"
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+        className: "flex justify-center mt-5 lg:flex-none lg:mt-0",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Homepage_Paginator__WEBPACK_IMPORTED_MODULE_6__["default"], {
           meta: props.news.meta
         })
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
-      className: "flex justify-center flex-row flex-wrap items-stretch p-4 max-w-7xl mx-auto gap-12",
+      className: "flex justify-center lg:flex-row flex-wrap lg:items-stretch p-4 mb-10 lg:mb-16 mx-auto gap-12 flex-col items-center max-w-xs lg:max-w-7xl lg:gap-12",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Homepage_NewsLists__WEBPACK_IMPORTED_MODULE_5__["default"], {
         news: props.news.data
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("hr", {
-      className: "border-b border-b-valhalla/30 mt-16 max-w-6xl mx-auto"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Homepage_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], {})]
   });
 }

@@ -3,15 +3,15 @@ import { Link } from "@inertiajs/inertia-react";
 const Navbar = ({ user }) => {
     return (
         <div>
-            <div className="navbar max-w-6xl mx-auto h-24 p-0">
-                <div className="flex-1">
+            <div className="navbar mx-auto h-[124px] p-0 pt-3 max-w-xs lg:max-w-6xl block lg:flex lg:h-24">
+                <div className="flex-1 flex justify-center lg:block">
                     <a href="">
                         <p className="text-3xl font-extrabold font-playfair hover:text-yellow-600">
                             NoTimeToNews
                         </p>
                     </a>
                 </div>
-                <div className="flex-none gap-2">
+                <div className="flex justify-between lg:flex-none mt-3 lg:gap-5 lg:mt-0">
                     <div className="form-control">
                         <input
                             type="text"
@@ -24,7 +24,7 @@ const Navbar = ({ user }) => {
                             tabIndex={0}
                             className="btn btn-ghost btn-circle avatar"
                         >
-                            <div className="w-10 rounded-full">
+                            <div className="rounded-full w-10">
                                 <img src="https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/profile.png" />
                             </div>
                         </label>

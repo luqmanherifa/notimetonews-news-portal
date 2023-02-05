@@ -13,30 +13,23 @@ export default function Homepage(props) {
             <Head title={props.title} />
             <Navbar user={props.auth.user} />
             <Category />
-            <div className="flex justify-start max-w-6xl mx-auto mt-10 mb-12">
-                <p className="font-playfair font-bold text-5xl text-highlight transition-all duration-1000 ease-out cursor-pointer">
-                    News Highlights
-                </p>
-            </div>
-            <div className="flex justify-center max-w-7xl mx-auto">
+            <div className="flex justify-center mx-auto max-w-xs lg:max-w-6xl">
                 <NewsHighlights />
             </div>
-            <hr className="border-b border-b-valhalla/30 my-16 max-w-6xl mx-auto" />
-            <div className="flex justify-between mx-auto max-w-6xl mb-8">
-                <div>
-                    <p className="font-playfair font-bold text-5xl text-highlight transition-all duration-1000 ease-out cursor-pointer">
+            <hr className="border-b border-b-valhalla/30 my-8 mx-auto max-w-xs lg:max-w-6xl lg:my-12" />
+            <div className=" mx-auto mb-5 max-w-xs lg:max-w-6xl lg:flex lg:justify-between lg:mb-8 lg:items-center">
+                <div className="max-w-[12rem] lg:max-w-none">
+                    <p className="font-playfair font-bold text-3xl text-highlight transition-all duration-1000 ease-out cursor-pointer lg:text-5xl">
                         News Today
                     </p>
                 </div>
-                <div>
+                <div className="flex justify-center mt-5 lg:flex-none lg:mt-0">
                     <Paginator meta={props.news.meta} />
                 </div>
             </div>
-            <div className="flex justify-center flex-row flex-wrap items-stretch p-4 max-w-7xl mx-auto gap-12">
-                {/* sm:flex-col sm:items-center  */}
+            <div className="flex justify-center lg:flex-row flex-wrap lg:items-stretch p-4 mb-10 lg:mb-16 mx-auto gap-12 flex-col items-center max-w-xs lg:max-w-7xl lg:gap-12">
                 <NewsLists news={props.news.data} />
             </div>
-            <hr className="border-b border-b-valhalla/30 mt-16 max-w-6xl mx-auto" />
             <Footer />
         </div>
     );
