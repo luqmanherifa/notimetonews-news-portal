@@ -10,18 +10,18 @@ const Paginator = ({ meta }) => {
             {prev && (
                 <Link
                     href={prev}
-                    className="btn btn-inline border-none px-5 hover:bg-yellow-400"
+                    className="btn-inline btn border-none px-5 hover:bg-yellow-400"
                 >
                     ←
                 </Link>
             )}
-            <Link className="btn btn-inline border-none px-5 hover:bg-yellow-400">
+            <Link className="btn-inline btn border-none px-5 hover:bg-yellow-400">
                 {current}
             </Link>
             {next && (
                 <Link
                     href={next}
-                    className="btn btn-inline border-none px-5 hover:bg-yellow-400"
+                    className="btn-inline btn border-none px-5 hover:bg-yellow-400"
                 >
                     →
                 </Link>

@@ -13,21 +13,21 @@ export default function Homepage(props) {
             <Head title={props.title} />
             <Navbar user={props.auth.user} />
             <Category />
-            <div className="flex justify-center mx-auto max-w-xs lg:max-w-6xl">
+            <div className="mx-auto flex max-w-xs justify-center lg:max-w-6xl">
                 <NewsHighlights />
             </div>
-            <hr className="border-b border-b-valhalla/30 my-8 mx-auto max-w-xs lg:max-w-6xl lg:my-12" />
-            <div className=" mx-auto mb-5 max-w-xs lg:max-w-6xl lg:flex lg:justify-between lg:mb-8 lg:items-center">
+            <hr className="my-8 mx-auto max-w-xs border-b border-b-valhalla/30 lg:my-12 lg:max-w-6xl" />
+            <div className=" mx-auto mb-5 max-w-xs lg:mb-8 lg:flex lg:max-w-6xl lg:items-center lg:justify-between">
                 <div className="max-w-[12rem] lg:max-w-none">
-                    <p className="font-playfair font-bold text-3xl text-highlight transition-all duration-1000 ease-out cursor-pointer lg:text-5xl">
+                    <p className="text-highlight cursor-pointer font-playfair text-3xl font-bold transition-all duration-1000 ease-out lg:text-5xl">
                         News Today
                     </p>
                 </div>
-                <div className="flex justify-center mt-5 lg:flex-none lg:mt-0">
+                <div className="mt-5 flex justify-center lg:mt-0 lg:flex-none">
                     <Paginator meta={props.news.meta} />
                 </div>
             </div>
-            <div className="flex justify-center lg:flex-row flex-wrap lg:items-stretch p-4 mb-10 lg:mb-16 mx-auto gap-12 flex-col items-center max-w-xs lg:max-w-7xl lg:gap-12">
+            <div className="mx-auto mb-10 flex max-w-xs flex-col flex-wrap items-center justify-center gap-12 p-4 lg:mb-16 lg:max-w-7xl lg:flex-row lg:items-stretch lg:gap-12">
                 <NewsLists news={props.news.data} />
             </div>
             <Footer />

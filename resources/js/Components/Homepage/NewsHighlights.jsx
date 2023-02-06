@@ -1,21 +1,21 @@
 const NewsHighlights = () => {
     return (
         <div>
-            <div className="flex justify-start mx-auto mb-5 max-w-xs lg:max-w-6xl lg:mb-12 lg:mt-10">
-                <p className="font-playfair font-bold text-3xl text-highlight transition-all duration-1000 ease-out cursor-pointer lg:text-5xl">
+            <div className="mx-auto mb-5 flex max-w-xs justify-start lg:mb-12 lg:mt-10 lg:max-w-6xl">
+                <p className="text-highlight cursor-pointer font-playfair text-3xl font-bold transition-all duration-1000 ease-out lg:text-5xl">
                     News Highlights
                 </p>
             </div>
-            <div className="relative block flex-none mb-0 lg:mb-24 lg:flex lg:justify-center">
-                <div className="mx-auto max-w-6xl mb-5 lg:mb-0">
+            <div className="relative mb-0 block flex-none lg:mb-24 lg:flex lg:justify-center">
+                <div className="mx-auto mb-5 max-w-6xl lg:mb-0">
                     <img src="https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/news_highlight.png" />
                 </div>
-                <div className="inset-0 static lg:absolute lg:inset-y-1/2">
-                    <div className="max-w-3xl bg-floral p-0 lg:p-14 lg:mx-auto">
-                        <p className="font-bold font-playfair text-3xl cursor-pointer hover:text-yellow-600 lg:text-5xl">
+                <div className="static inset-0 lg:absolute lg:inset-y-1/2">
+                    <div className="max-w-3xl bg-floral p-0 lg:mx-auto lg:p-14">
+                        <p className="cursor-pointer font-playfair text-3xl font-bold hover:text-yellow-600 lg:text-5xl">
                             ChatGPT passes exams from law and business schools
                         </p>
-                        <p className="text-lg mt-5 lg:mt-7 line-clamp-5 lg:line-clamp-none">
+                        <p className="mt-5 text-lg line-clamp-5 lg:mt-7 lg:line-clamp-none">
                             ChatGPT is smart enough to pass prestigious
                             graduate-level exams though not with particularly
                             high marks. The powerful new AI chatbot tool

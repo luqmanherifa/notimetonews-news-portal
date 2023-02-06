@@ -1,19 +1,19 @@
-import React, { useEffect } from 'react';
-import Button from '@/Components/Button';
-import Guest from '@/Layouts/Guest';
-import Input from '@/Components/Input';
-import Label from '@/Components/Label';
-import ValidationErrors from '@/Components/ValidationErrors';
-import { Head, useForm } from '@inertiajs/inertia-react';
+import React, { useEffect } from "react";
+import Button from "@/Components/Button";
+import Guest from "@/Layouts/Guest";
+import Input from "@/Components/Input";
+import Label from "@/Components/Label";
+import ValidationErrors from "@/Components/ValidationErrors";
+import { Head, useForm } from "@inertiajs/inertia-react";
 
 export default function ConfirmPassword() {
     const { data, setData, post, processing, errors, reset } = useForm({
-        password: '',
+        password: "",
     });
 
     useEffect(() => {
         return () => {
-            reset('password');
+            reset("password");
         };
     }, []);
 
@@ -24,7 +24,7 @@ export default function ConfirmPassword() {
     const submit = (e) => {
         e.preventDefault();
 
-        post(route('password.confirm'));
+        post(route("password.confirm"));
     };
 
     return (
@@ -32,7 +32,8 @@ export default function ConfirmPassword() {
             <Head title="Confirm Password" />
 
             <div className="mb-4 text-sm text-gray-600">
-                This is a secure area of the application. Please confirm your password before continuing.
+                This is a secure area of the application. Please confirm your
+                password before continuing.
             </div>
 
             <ValidationErrors errors={errors} />
@@ -51,7 +52,7 @@ export default function ConfirmPassword() {
                     />
                 </div>
 
-                <div className="flex items-center justify-end mt-4">
+                <div className="mt-4 flex items-center justify-end">
                     <Button className="ml-4" processing={processing}>
                         Confirm
                     </Button>

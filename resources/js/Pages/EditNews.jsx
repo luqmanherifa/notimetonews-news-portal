@@ -25,22 +25,22 @@ export default function EditNews(props) {
         <div className="min-h-screen bg-slate-50">
             <Head title={props.title} />
             <Navbar user={props.auth.user} />
-            <div className="card w-full bg-base-100 shadow-xl m-4">
-                <div className="p-4 text-2xl flex justify-center items-center">
+            <div className="card m-4 w-full bg-base-100 shadow-xl">
+                <div className="flex items-center justify-center p-4 text-2xl">
                     Edit News
                 </div>
                 <div className="card-body">
                     <input
                         type="text"
                         placeholder="Title"
-                        className="input input-bordered w-full m-2"
+                        className="input-bordered input m-2 w-full"
                         onChange={(title) => setTitle(title.target.value)}
                         defaultValue={props.myNews.title}
                     />
                     <input
                         type="text"
                         placeholder="Description"
-                        className="input input-bordered w-full m-2"
+                        className="input-bordered input m-2 w-full"
                         onChange={(description) =>
                             setDescription(description.target.value)
                         }
@@ -49,14 +49,14 @@ export default function EditNews(props) {
                     <input
                         type="text"
                         placeholder="Category"
-                        className="input input-bordered w-full m-2"
+                        className="input-bordered input m-2 w-full"
                         onChange={(category) =>
                             setCategory(category.target.value)
                         }
                         defaultValue={props.myNews.category}
                     />
                     <button
-                        className="btn btn-primary m-2"
+                        className="btn-primary btn m-2"
                         onClick={() => handleSubmit()}
                     >
                         Update

@@ -3,34 +3,34 @@ import { Link } from "@inertiajs/inertia-react";
 const Navbar = ({ user }) => {
     return (
         <div>
-            <div className="navbar mx-auto h-[124px] p-0 pt-3 max-w-xs lg:max-w-6xl block lg:flex lg:h-24">
-                <div className="flex-1 flex justify-center lg:block">
+            <div className="navbar mx-auto block h-[124px] max-w-xs p-0 pt-3 lg:flex lg:h-24 lg:max-w-6xl">
+                <div className="flex flex-1 justify-center lg:block">
                     <a href="">
-                        <p className="text-3xl font-extrabold font-playfair hover:text-yellow-600">
+                        <p className="font-playfair text-3xl font-extrabold hover:text-yellow-600">
                             NoTimeToNews
                         </p>
                     </a>
                 </div>
-                <div className="flex justify-between lg:flex-none mt-3 lg:gap-5 lg:mt-0">
+                <div className="mt-3 flex justify-between lg:mt-0 lg:flex-none lg:gap-5">
                     <div className="form-control">
                         <input
                             type="text"
                             placeholder="Search"
-                            className="input input-bordered bg-floral rounded-full px-5"
+                            className="input-bordered input rounded-full bg-floral px-5"
                         />
                     </div>
-                    <div className="dropdown dropdown-end">
+                    <div className="dropdown-end dropdown">
                         <label
                             tabIndex={0}
-                            className="btn btn-ghost btn-circle avatar"
+                            className="btn-ghost btn-circle avatar btn"
                         >
-                            <div className="rounded-full w-10">
+                            <div className="w-10 rounded-full">
                                 <img src="https://raw.githubusercontent.com/luqmanherifa/notimetonews-news-portal/main/asset/img/profile.png" />
                             </div>
                         </label>
                         <ul
                             tabIndex={0}
-                            className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
+                            className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow"
                         >
                             {!user ? (
                                 <>

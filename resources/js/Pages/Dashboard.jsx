@@ -37,7 +37,7 @@ export default function Dashboard(props) {
             auth={props.auth}
             errors={props.errors}
             header={
-                <h2 className="font-semibold text-xl text-gray-800 leading-tight">
+                <h2 className="text-xl font-semibold leading-tight text-gray-800">
                     Dashboard
                 </h2>
             }
@@ -45,8 +45,8 @@ export default function Dashboard(props) {
             <Head title="Dashboard" />
 
             <div className="py-12">
-                <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div className="p-6 bg-white border-b border-gray-200">
+                <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                    <div className="border-b border-gray-200 bg-white p-6">
                         <p className="m-2">You're logged in!</p>
                         <div className="m-2">
                             {isNotif && (
@@ -54,7 +54,7 @@ export default function Dashboard(props) {
                                     <div>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="stroke-current flex-shrink-0 h-6 w-6"
+                                            className="h-6 w-6 flex-shrink-0 stroke-current"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                         >
@@ -73,14 +73,14 @@ export default function Dashboard(props) {
                         <input
                             type="text"
                             placeholder="Title"
-                            className="input input-bordered w-full m-2"
+                            className="input-bordered input m-2 w-full"
                             onChange={(title) => setTitle(title.target.value)}
                             value={title}
                         />
                         <input
                             type="text"
                             placeholder="Description"
-                            className="input input-bordered w-full m-2"
+                            className="input-bordered input m-2 w-full"
                             onChange={(description) =>
                                 setDescription(description.target.value)
                             }
@@ -89,7 +89,7 @@ export default function Dashboard(props) {
                         <input
                             type="text"
                             placeholder="Category"
-                            className="input input-bordered w-full m-2"
+                            className="input-bordered input m-2 w-full"
                             onChange={(category) =>
                                 setCategory(category.target.value)
                             }
@@ -98,39 +98,39 @@ export default function Dashboard(props) {
                         <input
                             type="text"
                             placeholder="Image"
-                            className="input input-bordered w-full m-2"
+                            className="input-bordered input m-2 w-full"
                             onChange={(image) => setImage(image.target.value)}
                             value={image}
                         />
                         <button
-                            className="btn btn-primary m-2"
+                            className="btn-primary btn m-2"
                             onClick={() => handleSubmit()}
                         >
                             Submit
                         </button>
                     </div>
                 </div>
-                <div className="max-w-6xl mx-auto p-4">
+                <div className="mx-auto max-w-6xl p-4">
                     {props.myNews && props.myNews.length > 0 ? (
                         props.myNews.map((news, i) => {
                             return (
                                 <div
                                     key={i}
-                                    className="card w-full bg-base-100 shadow-xl m-4 mx-auto"
+                                    className="card m-4 mx-auto w-full bg-base-100 shadow-xl"
                                 >
                                     <div className="card-body">
                                         <h2 className="card-title">
                                             {news.title}
                                         </h2>
                                         <p>{news.description}</p>
-                                        <div className="badge badge-inline">
+                                        <div className="badge-inline badge">
                                             {news.category}
                                         </div>
                                         <div className="max-w-xs">
                                             <img src={news.image} />
                                         </div>
                                         <div className="card-actions justify-end">
-                                            <div className="badge badge-outline">
+                                            <div className="badge-outline badge">
                                                 <Link
                                                     href={route("edit.news")}
                                                     method="get"
@@ -140,7 +140,7 @@ export default function Dashboard(props) {
                                                     Edit
                                                 </Link>
                                             </div>
-                                            <div className="badge badge-outline">
+                                            <div className="badge-outline badge">
                                                 <Link
                                                     href={route("delete.news")}
                                                     method="post"
@@ -161,7 +161,7 @@ export default function Dashboard(props) {
                                 <div>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="stroke-current flex-shrink-0 h-6 w-6"
+                                        className="h-6 w-6 flex-shrink-0 stroke-current"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                     >

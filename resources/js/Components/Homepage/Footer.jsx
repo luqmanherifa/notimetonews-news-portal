@@ -1,50 +1,50 @@
 const Footer = () => {
     return (
         <div className="bg-stone-900">
-            <div className="mx-auto py-10 lg:py-16 max-w-xs lg:max-w-6xl lg:flex lg:justify-between">
+            <div className="mx-auto max-w-xs py-10 lg:flex lg:max-w-6xl lg:justify-between lg:py-16">
                 <div>
                     <a href="">
-                        <p className="text-3xl font-extrabold font-playfair text-yellow-400 hover:text-yellow-500">
+                        <p className="font-playfair text-3xl font-extrabold text-yellow-400 hover:text-yellow-500">
                             NoTimeToNews
                         </p>
                     </a>
-                    <div className="my-5 text-sm max-w-xs text-white font-light lg:mb-0">
+                    <div className="my-5 max-w-xs text-sm font-light text-white lg:mb-0">
                         Best news portal for you, updated every day, can be read
                         anywhere and anytime.
                     </div>
                 </div>
-                <div className="lg:gap-10 lg:flex">
+                <div className="lg:flex lg:gap-10">
                     <div>
-                        <p className="text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-5">
                             Jobs
                         </p>
-                        <p className="text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-5">
                             Sitemap
                         </p>
-                        <p className="text-white mb-2 lg:mb-0 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-0">
                             Newsletters
                         </p>
                     </div>
                     <div className="text-white">
-                        <p className="text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-5">
                             About Us
                         </p>
-                        <p className="text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-5">
                             Terms of Use
                         </p>
-                        <p className="text-white mb-2 lg:mb-0 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-0">
                             Privacy Policy
                         </p>
                     </div>
 
                     <div>
-                        <p className="text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-5">
                             Transcripts
                         </p>
-                        <p className="text-white mb-2 lg:mb-5 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-2 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-5">
                             Newsource
                         </p>
-                        <p className="text-white mb-0 lg:mb-0 text-sm hover:text-yellow-400 cursor-pointer">
+                        <p className="mb-0 cursor-pointer text-sm text-white hover:text-yellow-400 lg:mb-0">
                             Add Choices
                         </p>
                     </div>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
             <div className="flex justify-center pb-10">
                 <a href="https://github.com/luqmanherifa">
-                    <p className="text-white hover:text-yellow-400 text-xs p-3">
+                    <p className="p-3 text-xs text-white hover:text-yellow-400">
                         © 2023 • Built by Luqman Herifa
                     </p>
                 </a>
