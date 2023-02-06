@@ -7,6 +7,7 @@ export default function EditNews(props) {
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
     const [category, setCategory] = useState("");
+    const [image, setImage] = useState("");
 
     const handleSubmit = () => {
         const data = {
@@ -14,53 +15,64 @@ export default function EditNews(props) {
             title,
             description,
             category,
+            image,
         };
         Inertia.post("/news/update", data);
         setTitle("");
         setDescription("");
         setCategory("");
+        setImage("");
     };
 
     return (
-        <div className="min-h-screen bg-slate-50">
+        <div className="mx-auto min-h-screen max-w-7xl">
             <Head title={props.title} />
             <Navbar user={props.auth.user} />
-            <div className="card m-4 w-full bg-base-100 shadow-xl">
-                <div className="flex items-center justify-center p-4 text-2xl">
-                    Edit News
-                </div>
-                <div className="card-body">
-                    <input
-                        type="text"
-                        placeholder="Title"
-                        className="input-bordered input m-2 w-full"
-                        onChange={(title) => setTitle(title.target.value)}
-                        defaultValue={props.myNews.title}
-                    />
-                    <input
-                        type="text"
-                        placeholder="Description"
-                        className="input-bordered input m-2 w-full"
-                        onChange={(description) =>
-                            setDescription(description.target.value)
-                        }
-                        defaultValue={props.myNews.description}
-                    />
-                    <input
-                        type="text"
-                        placeholder="Category"
-                        className="input-bordered input m-2 w-full"
-                        onChange={(category) =>
-                            setCategory(category.target.value)
-                        }
-                        defaultValue={props.myNews.category}
-                    />
-                    <button
-                        className="btn-primary btn m-2"
-                        onClick={() => handleSubmit()}
-                    >
-                        Update
-                    </button>
+            <div className="py-12">
+                <div className="mx-auto max-w-4xl">
+                    <div className="rounded-2xl border-b border-gray-200 bg-white p-6 shadow-md">
+                        <p className="mb-5">
+                            You're logged in. Edit your news!
+                        </p>
+                        <input
+                            type="text"
+                            placeholder="Title"
+                            className="input-bordered input mb-3 block w-full"
+                            onChange={(title) => setTitle(title.target.value)}
+                            defaultValue={props.myNews.title}
+                        />
+                        <input
+                            type="text"
+                            placeholder="Description"
+                            className="input-bordered input mb-3 block w-full"
+                            onChange={(description) =>
+                                setDescription(description.target.value)
+                            }
+                            defaultValue={props.myNews.description}
+                        />
+                        <input
+                            type="text"
+                            placeholder="Category"
+                            className="input-bordered input mb-3 block w-full"
+                            onChange={(category) =>
+                                setCategory(category.target.value)
+                            }
+                            defaultValue={props.myNews.category}
+                        />
+                        <input
+                            type="text"
+                            placeholder="Image"
+                            className="input-bordered input mb-5 block w-full"
+                            onChange={(image) => setImage(image.target.value)}
+                            defaultValue={props.myNews.image}
+                        />
+                        <button
+                            className="btn-primary btn w-full bg-blue-600 hover:bg-blue-700"
+                            onClick={() => handleSubmit()}
+                        >
+                            Submit
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

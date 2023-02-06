@@ -2551,6 +2551,7 @@ var isNews = function isNews(news) {
 };
 var noNews = function noNews() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    className: "py-20 text-5xl font-bold",
     children: "No news to display!"
   });
 };
@@ -3773,16 +3774,16 @@ function Dashboard(props) {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "py-12",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-        className: "mx-auto max-w-7xl sm:px-6 lg:px-8",
+        className: "mx-auto max-w-4xl",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "border-b border-gray-200 bg-white p-6",
+          className: "rounded-2xl border-b border-gray-200 bg-white p-6 shadow-md",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            className: "m-2",
-            children: "You're logged in!"
+            className: "mb-5",
+            children: "You're logged in. Submit your news!"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: "m-2",
+            className: "mb-5",
             children: isNotif && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-              className: "alert alert-success shadow-lg",
+              className: "alert alert-success bg-green-500 shadow-lg",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("svg", {
                   xmlns: "http://www.w3.org/2000/svg",
@@ -3803,7 +3804,7 @@ function Dashboard(props) {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
             type: "text",
             placeholder: "Title",
-            className: "input-bordered input m-2 w-full",
+            className: "input-bordered input mb-3 block w-full",
             onChange: function onChange(title) {
               return setTitle(title.target.value);
             },
@@ -3811,7 +3812,7 @@ function Dashboard(props) {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
             type: "text",
             placeholder: "Description",
-            className: "input-bordered input m-2 w-full",
+            className: "input-bordered input mb-3 block w-full",
             onChange: function onChange(description) {
               return setDescription(description.target.value);
             },
@@ -3819,7 +3820,7 @@ function Dashboard(props) {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
             type: "text",
             placeholder: "Category",
-            className: "input-bordered input m-2 w-full",
+            className: "input-bordered input mb-3 block w-full",
             onChange: function onChange(category) {
               return setCategory(category.target.value);
             },
@@ -3827,13 +3828,13 @@ function Dashboard(props) {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
             type: "text",
             placeholder: "Image",
-            className: "input-bordered input m-2 w-full",
+            className: "input-bordered input mb-5 block w-full",
             onChange: function onChange(image) {
               return setImage(image.target.value);
             },
             value: image
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
-            className: "btn-primary btn m-2",
+            className: "btn-primary btn w-full bg-blue-600 hover:bg-blue-700",
             onClick: function onClick() {
               return handleSubmit();
             },
@@ -3841,29 +3842,34 @@ function Dashboard(props) {
           })]
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-        className: "mx-auto max-w-6xl p-4",
+        className: "mx-auto max-w-4xl p-4",
         children: props.myNews && props.myNews.length > 0 ? props.myNews.map(function (news, i) {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: "card m-4 mx-auto w-full bg-base-100 shadow-xl",
+            className: "card m-4 mx-auto max-w-4xl bg-base-100 shadow-lg",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "card-body",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
-                className: "card-title",
-                children: news.title
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: "flex justify-between",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
+                  className: "card-title  line-clamp-2",
+                  children: news.title
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                  className: "badge-inline badge mb-2 rounded-md",
+                  children: news.category
+                })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: " mb-2 line-clamp-3",
                 children: news.description
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                className: "badge-inline badge",
-                children: news.category
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                className: "max-w-xs",
+                className: "mb-2 max-w-xs",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: news.image
+                  src: news.image,
+                  className: "rounded-md"
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 className: "card-actions justify-end",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                  className: "badge-outline badge",
+                  className: "badge-outline badge rounded-md hover:bg-yellow-500",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Link, {
                     href: route("edit.news"),
                     method: "get",
@@ -3874,7 +3880,7 @@ function Dashboard(props) {
                     children: "Edit"
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                  className: "badge-outline badge",
+                  className: "badge-outline badge rounded-md hover:bg-yellow-500",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.Link, {
                     href: route("delete.news"),
                     method: "post",
@@ -3889,9 +3895,9 @@ function Dashboard(props) {
             })
           }, i);
         }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "m-4",
+          className: "max-w-4xl",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-            className: "alert alert-warning shadow-lg",
+            className: "alert alert-warning bg-yellow-500 shadow-lg",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("svg", {
                 xmlns: "http://www.w3.org/2000/svg",
@@ -3958,63 +3964,80 @@ function EditNews(props) {
     _useState6 = _slicedToArray(_useState5, 2),
     category = _useState6[0],
     setCategory = _useState6[1];
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
+    _useState8 = _slicedToArray(_useState7, 2),
+    image = _useState8[0],
+    setImage = _useState8[1];
   var handleSubmit = function handleSubmit() {
     var data = {
       id: props.myNews.id,
       title: title,
       description: description,
-      category: category
+      category: category,
+      image: image
     };
     _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_3__.Inertia.post("/news/update", data);
     setTitle("");
     setDescription("");
     setCategory("");
+    setImage("");
   };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-    className: "min-h-screen bg-slate-50",
+    className: "mx-auto min-h-screen max-w-7xl",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Head, {
       title: props.title
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
       user: props.auth.user
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "card m-4 w-full bg-base-100 shadow-xl",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-        className: "flex items-center justify-center p-4 text-2xl",
-        children: "Edit News"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "card-body",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
-          type: "text",
-          placeholder: "Title",
-          className: "input-bordered input m-2 w-full",
-          onChange: function onChange(title) {
-            return setTitle(title.target.value);
-          },
-          defaultValue: props.myNews.title
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
-          type: "text",
-          placeholder: "Description",
-          className: "input-bordered input m-2 w-full",
-          onChange: function onChange(description) {
-            return setDescription(description.target.value);
-          },
-          defaultValue: props.myNews.description
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
-          type: "text",
-          placeholder: "Category",
-          className: "input-bordered input m-2 w-full",
-          onChange: function onChange(category) {
-            return setCategory(category.target.value);
-          },
-          defaultValue: props.myNews.category
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
-          className: "btn-primary btn m-2",
-          onClick: function onClick() {
-            return handleSubmit();
-          },
-          children: "Update"
-        })]
-      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+      className: "py-12",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+        className: "mx-auto max-w-4xl",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+          className: "rounded-2xl border-b border-gray-200 bg-white p-6 shadow-md",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+            className: "mb-5",
+            children: "You're logged in. Edit your news!"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
+            type: "text",
+            placeholder: "Title",
+            className: "input-bordered input mb-3 block w-full",
+            onChange: function onChange(title) {
+              return setTitle(title.target.value);
+            },
+            defaultValue: props.myNews.title
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
+            type: "text",
+            placeholder: "Description",
+            className: "input-bordered input mb-3 block w-full",
+            onChange: function onChange(description) {
+              return setDescription(description.target.value);
+            },
+            defaultValue: props.myNews.description
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
+            type: "text",
+            placeholder: "Category",
+            className: "input-bordered input mb-3 block w-full",
+            onChange: function onChange(category) {
+              return setCategory(category.target.value);
+            },
+            defaultValue: props.myNews.category
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("input", {
+            type: "text",
+            placeholder: "Image",
+            className: "input-bordered input mb-5 block w-full",
+            onChange: function onChange(image) {
+              return setImage(image.target.value);
+            },
+            defaultValue: props.myNews.image
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
+            className: "btn-primary btn w-full bg-blue-600 hover:bg-blue-700",
+            onClick: function onClick() {
+              return handleSubmit();
+            },
+            children: "Submit"
+          })]
+        })
+      })
     })]
   });
 }

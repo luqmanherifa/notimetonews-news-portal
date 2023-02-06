@@ -49,7 +49,7 @@ class NewsController extends Controller
         $news->image = $request->image;
         $news->author = auth()->user()->email;
         $news->save();
-        return redirect()->back()->with('message', 'News has been input!');
+        return redirect()->back()->with('message', 'News has been submit!');
     }
 
     /**
@@ -107,6 +107,6 @@ class NewsController extends Controller
     {
         $news = News::find($request->id);
         $news->delete();
-        return redirect()->back()->with('message', 'News has been deleted!');
+        return redirect()->back()->with('message', 'News has been removed!');
     }
 }

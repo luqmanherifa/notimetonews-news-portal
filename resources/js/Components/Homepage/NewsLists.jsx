@@ -30,7 +30,7 @@ const isNews = (news) => {
 };
 
 const noNews = () => {
-    return <div>No news to display!</div>;
+    return <div className="py-20 text-5xl font-bold">No news to display!</div>;
 };
 
 const NewsLists = ({ news }) => {

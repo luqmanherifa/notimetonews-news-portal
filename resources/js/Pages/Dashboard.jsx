@@ -43,14 +43,15 @@ export default function Dashboard(props) {
             }
         >
             <Head title="Dashboard" />
-
             <div className="py-12">
-                <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                    <div className="border-b border-gray-200 bg-white p-6">
-                        <p className="m-2">You're logged in!</p>
-                        <div className="m-2">
+                <div className="mx-auto max-w-4xl">
+                    <div className="rounded-2xl border-b border-gray-200 bg-white p-6 shadow-md">
+                        <p className="mb-5">
+                            You're logged in. Submit your news!
+                        </p>
+                        <div className="mb-5">
                             {isNotif && (
-                                <div className="alert alert-success shadow-lg">
+                                <div className="alert alert-success bg-green-500 shadow-lg">
                                     <div>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -73,14 +74,14 @@ export default function Dashboard(props) {
                         <input
                             type="text"
                             placeholder="Title"
-                            className="input-bordered input m-2 w-full"
+                            className="input-bordered input mb-3 block w-full"
                             onChange={(title) => setTitle(title.target.value)}
                             value={title}
                         />
                         <input
                             type="text"
                             placeholder="Description"
-                            className="input-bordered input m-2 w-full"
+                            className="input-bordered input mb-3 block w-full"
                             onChange={(description) =>
                                 setDescription(description.target.value)
                             }
@@ -89,7 +90,7 @@ export default function Dashboard(props) {
                         <input
                             type="text"
                             placeholder="Category"
-                            className="input-bordered input m-2 w-full"
+                            className="input-bordered input mb-3 block w-full"
                             onChange={(category) =>
                                 setCategory(category.target.value)
                             }
@@ -98,39 +99,48 @@ export default function Dashboard(props) {
                         <input
                             type="text"
                             placeholder="Image"
-                            className="input-bordered input m-2 w-full"
+                            className="input-bordered input mb-5 block w-full"
                             onChange={(image) => setImage(image.target.value)}
                             value={image}
                         />
                         <button
-                            className="btn-primary btn m-2"
+                            className="btn-primary btn w-full bg-blue-600 hover:bg-blue-700"
                             onClick={() => handleSubmit()}
                         >
                             Submit
                         </button>
                     </div>
                 </div>
-                <div className="mx-auto max-w-6xl p-4">
+                <div className="mx-auto max-w-4xl p-4">
                     {props.myNews && props.myNews.length > 0 ? (
                         props.myNews.map((news, i) => {
                             return (
                                 <div
                                     key={i}
-                                    className="card m-4 mx-auto w-full bg-base-100 shadow-xl"
+                                    className="card m-4 mx-auto max-w-4xl bg-base-100 shadow-lg"
                                 >
                                     <div className="card-body">
-                                        <h2 className="card-title">
-                                            {news.title}
-                                        </h2>
-                                        <p>{news.description}</p>
-                                        <div className="badge-inline badge">
-                                            {news.category}
+                                        <div className="flex justify-between">
+                                            <h2 className="card-title  line-clamp-2">
+                                                {news.title}
+                                            </h2>
+                                            <div className="badge-inline badge mb-2 rounded-md">
+                                                {news.category}
+                                            </div>
                                         </div>
-                                        <div className="max-w-xs">
-                                            <img src={news.image} />
+                                        <p className=" mb-2 line-clamp-3">
+                                            {news.description}
+                                        </p>
+
+                                        <div className="mb-2 max-w-xs">
+                                            <img
+                                                src={news.image}
+                                                className="rounded-md"
+                                            />
                                         </div>
+
                                         <div className="card-actions justify-end">
-                                            <div className="badge-outline badge">
+                                            <div className="badge-outline badge rounded-md hover:bg-yellow-500">
                                                 <Link
                                                     href={route("edit.news")}
                                                     method="get"
@@ -140,7 +150,7 @@ export default function Dashboard(props) {
                                                     Edit
                                                 </Link>
                                             </div>
-                                            <div className="badge-outline badge">
+                                            <div className="badge-outline badge rounded-md hover:bg-yellow-500">
                                                 <Link
                                                     href={route("delete.news")}
                                                     method="post"
@@ -156,8 +166,8 @@ export default function Dashboard(props) {
                             );
                         })
                     ) : (
-                        <div className="m-4">
-                            <div className="alert alert-warning shadow-lg">
+                        <div className="max-w-4xl">
+                            <div className="alert alert-warning bg-yellow-500 shadow-lg">
                                 <div>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
