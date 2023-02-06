@@ -23,7 +23,7 @@ NoTimeToNews is a news portal contains trending and daily news, news submit and 
   - Visual Studio Code
 
 ## Design
-- ### Font
+- ### Fonts
   - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
   - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
 
