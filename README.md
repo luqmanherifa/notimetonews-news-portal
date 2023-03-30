@@ -56,3 +56,4 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
 
 ## Thanks to
   - [Dea Afrizal](https://www.youtube.com/@deaafrizal)
+  - [CNN International](https://edition.cnn.com)
