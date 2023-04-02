@@ -13,9 +13,9 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
 ### Libraries
   - React
   - Laravel
-  - Inertia
   - Tailwind CSS
   - daisyUI
+  - Inertia
   - Google Fonts
 
 ### Database
