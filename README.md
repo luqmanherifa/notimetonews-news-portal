@@ -5,47 +5,57 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
 ![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_notimetonews.png)
 
 ## Software
-- ### Languages
+### Languages
   - JavaScript
   - PHP
   - HTML/CSS
 
-- ### Libraries
+### Libraries
   - React
   - Laravel
   - Inertia
   - Tailwind CSS
   - daisyUI
-  
   - Google Fonts
 
-- ### Database
+### Database
   - MySQL
 
-- ### Tools
+### Tools
   - Visual Studio Code
 
+### Features
+  - Home Page
+  - Dashboard Page
+  - Create Post
+  - Read Post
+  - Update Post
+  - Delete Post
+  - Pagination
+  - Log in
+  - Sign up
+
 ## Design
-- ### Fonts
+### Fonts
   - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
   - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
 
-- ### Colors
+### Colors
   - ![#FACC15](https://placehold.co/20x20/FACC15/FACC15.png)  #FACC15
   - ![#F6F4F0](https://placehold.co/20x20/F6F4F0/F6F4F0.png)  #F6F4F0
 
-- ### Tools
+### Tools
   - Figma
 
 ## Build
-- ### Platform
+### Platform
   - Web
 
-- ### Responsive
+### Responsive
   - Desktop
   - Mobile
 
-- ### Date created
+### Date created
   - February 2023
 
 ## Social
