@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div className="bg-stone-900">
-            <div className="mx-auto max-w-xs py-10 lg:flex lg:max-w-6xl lg:justify-between lg:py-16">
+            <div className="mx-auto max-w-xs pt-6 pb-4 lg:flex lg:max-w-6xl lg:justify-between lg:pt-10 lg:pb-8">
                 <div>
                     <a href="">
                         <p className="font-playfair text-3xl font-extrabold text-yellow-400 hover:text-yellow-500">
@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center pb-10">
+            <div className="flex justify-center pb-6 lg:pb-10">
                 <a href="https://github.com/luqmanherifa">
                     <p className="p-3 text-xs text-white hover:text-yellow-400">
                         © 2023 • Built by Luqman Herifa
