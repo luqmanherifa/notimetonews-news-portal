@@ -58,6 +58,16 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
 ### Date created
   - February 2023
 
+### How to run
+  - React
+```
+npm run watch
+```
+  - Laravel
+```
+php artisan serve
+```
+
 ## Social
   - [Email](mailto:luqmanherifa@gmail.com)
   - [Instagram](https://www.instagram.com/luqmanherifa)
