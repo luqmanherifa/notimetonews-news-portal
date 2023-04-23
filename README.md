@@ -3,6 +3,7 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
 
 ## Display
 ![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/src/images/web_notimetonews.png)
+  - [Trailer](https://youtu.be/DtDKl8th9u8)
 
 ## Software
 ### Languages
