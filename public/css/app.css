@@ -3569,10 +3569,6 @@ html {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -3606,9 +3602,6 @@ html {
 }
 .pt-3 {
   padding-top: 0.75rem;
-}
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -4357,11 +4350,6 @@ body {
   .lg\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-  }
-
-  .lg\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .lg\:pt-10 {
