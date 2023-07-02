@@ -15,7 +15,6 @@
   - Laravel
   - Tailwind CSS
   - daisyUI
-  - Inertia
   - Google Fonts
 
 ### Database
@@ -67,12 +66,6 @@ npm run watch
 ```
 php artisan serve
 ```
-
-## Social
-  - [Email](mailto:luqmanherifa@gmail.com)
-  - [Instagram](https://www.instagram.com/luqmanherifa)
-  - [LinkedIn](https://www.linkedin.com/in/luqmanherifa)
-  - [Dribbble](https://dribbble.com/luqmanherifa)
 
 ## Thanks to
   - [Dea Afrizal](https://www.youtube.com/@deaafrizal)
