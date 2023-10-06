@@ -15,7 +15,6 @@
   - Laravel
   - Tailwind CSS
   - daisyUI
-  - Google Fonts
 
 ### Database
   - MySQL
