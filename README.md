@@ -23,17 +23,6 @@
 ### Tools
   - Visual Studio Code
 
-### Features
-  - Home Page
-  - Dashboard Page
-  - Create Post
-  - Read Post
-  - Update Post
-  - Delete Post
-  - Pagination
-  - Log in
-  - Sign up
-
 ## Design
 ### Fonts
   - [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
