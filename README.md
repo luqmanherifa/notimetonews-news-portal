@@ -1,7 +1,7 @@
 # NoTimeToNews: News Portal
 
-## Display
-![Display](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/notimetonews.png)
+## Interface
+![Interface](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/notimetonews.png)
   - [Trailer](https://youtu.be/DtDKl8th9u8)
 
 ## Software
