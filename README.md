@@ -2,7 +2,6 @@
 
 ## Interface
 ![Interface](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/notimetonews.png)
-  - [Trailer](https://youtu.be/DtDKl8th9u8)
 
 ## Software
 ### Languages
@@ -37,6 +36,9 @@
 ## Build
 ### Platform
   - Web
+
+### Deployment
+  - [YouTube](https://youtu.be/DtDKl8th9u8)
 
 ### Responsive
   - Desktop
