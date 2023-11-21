@@ -1,4 +1,5 @@
 # NoTimeToNews: News Portal
+NoTimeToNews is a news portal contains highlight and daily news, news submit and edit features based on web. The project was developed for practicing React and CRUD using React, Laravel, Tailwind CSS, MySQL, and others.
 
 ## Interface
 ![Interface](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/notimetonews.png)
