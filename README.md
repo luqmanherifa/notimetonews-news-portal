@@ -10,10 +10,12 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
   - PHP
   - HTML/CSS
 
-### Libraries
+### Frameworks
   - React
   - Laravel
   - Tailwind CSS
+
+### Libraries
   - daisyUI
 
 ### Database
