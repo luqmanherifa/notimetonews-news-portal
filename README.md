@@ -17,6 +17,7 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
 
 ### Libraries
   - daisyUI
+  - Inertia
 
 ### Database
   - MySQL
