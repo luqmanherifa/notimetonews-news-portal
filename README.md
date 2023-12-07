@@ -41,7 +41,7 @@ NoTimeToNews is a news portal contains highlight and daily news, news submit and
 ### Platform
   - Web
 
-### Deployment
+### Live
   - [YouTube](https://youtu.be/DtDKl8th9u8)
 
 ### Responsive
